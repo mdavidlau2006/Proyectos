@@ -1,11 +1,11 @@
-import java.util.Scanner;  // Import the Scanner class
+import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-    Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+    Scanner myObj = new Scanner(System.in); 
     System.out.println("Entrar Dinero ");
-
-    float dinero = myObj.nextFloat();  // Read user input
+    
+    float dinero = myObj.nextFloat(); 
 
     if(dinero >= 120){
         int Arreglo_A = (int)(dinero / 120);
